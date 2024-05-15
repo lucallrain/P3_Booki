@@ -93,6 +93,7 @@ nav li:hover {
     gap: 8px;
 }
 
+
 .search-bar {
     width: 400px;
     height: 50px;
@@ -549,13 +550,19 @@ a {
         border-top: none;
     }
 
-    
+    .info-group{
+        width: 100%;
+        margin-top: 35px;
+        gap: 10px;
+        height: 100%;
+    }
 
     .Headline {
         width:100%;
         text-align: center;
         justify-content: flex-start;
-        margin: 25px;
+        align-items: center;
+        
     }
 
     .search-bar {
@@ -592,7 +599,7 @@ a {
         flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
-        margin-top: 150px;
+        margin-top: 100px;
         border-radius: 0%;
         width:100%;
         background-color: white;
