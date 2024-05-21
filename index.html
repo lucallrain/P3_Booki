@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +17,6 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Booki</title>
 </head>
-
 <body>
     <div class="main-container">
         <header>
@@ -44,9 +42,13 @@
                 </div>
                 <form>
                     <div class="search-bar">
-                        <i class="fa-solid fa-location-dot" aria-hidden="true"> </i>
+                        <i class="fa-solid fa-location-dot" aria-hidden="true" style="color: black;"
+                            id="localisation"></i>
                         <input type="search" name="searchBar" id="searchBar" placeholder="Marseille, France" />
                         <button type="submit" id="desktop-button"><span> Rechercher</span></button>
+                        <button type="submit" id="mobileButton">
+                            <i class="fa-solid fa-magnifying-glass" aria-hidden="true" style="color:white;"></i>
+                        </button>
                     </div>
                 </form>
                 <section class="filtres">
@@ -139,7 +141,6 @@
                             <article class="card-container">
                                 <div class="location-cartes">
                                     <img src="./images/hebergements/annie-spratt.jpg" alt="Hôtel du la mer" />
-
                                     <div class="cards-text">
                                         <h3>Hôtel de la mer</h3>
                                         <p>Nuit à partir de 46<strong>€</strong></p>
@@ -195,9 +196,7 @@
                         <h3>Afficher plus</h3>
                     </div>
                 </section>
-
                 <section class="populaires">
-
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
@@ -273,9 +272,7 @@
                         </a>
                     </div>
                 </section>
-
             </div>
-
             <section class="activites" id="activites">
                 <div class="activites-title">
 
@@ -290,7 +287,6 @@
                     </div>
                     </a>
                     <a class="cards-activites" href="#">
-
                         <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
                         <div class="activites-card-title">
                             <h3 class="card-title">Fort de Pomègues</h3>
@@ -311,7 +307,6 @@
                     </a>
                 </div>
             </section>
-
         </main>
         <footer>
             <div class="footer-container">
@@ -332,10 +327,7 @@
                     <p>Nous contacter</p>
                 </div>
             </div>
-
-
         </footer>
     </div>
 </body>
-
 </html>
