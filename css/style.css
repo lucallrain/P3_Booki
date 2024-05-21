@@ -5,7 +5,6 @@
     padding: 0px;
     box-sizing: border-box;
     list-style: none;
-
 }
 
 main {
@@ -149,23 +148,18 @@ nav li:hover {
     display: none;
 }
 
-
-
 .filtres {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
     width: 100%;
-
-
 }
 
 .filtre-container {
     display: flex;
     flex-direction: row;
     gap: 20px;
-
 }
 
 
@@ -294,7 +288,6 @@ a {
 .locationcard {
     width: calc(33.33% - 20px);
     min-height: 207.25px;
-
     background-color: white;
     border: solid 5px;
     border-color: white;
@@ -312,7 +305,6 @@ a {
 .cards-text {
     display: flex;
     flex-direction: column;
-
     width: 100%;
     font-size: 14px;
     position: absolute;
@@ -347,7 +339,6 @@ a {
     flex-direction: column;
     justify-content: space-between;
     gap: 30px;
-
 }
 
 .card {
@@ -409,7 +400,6 @@ a {
     border-radius: 0px 0px 20px 20px;
     box-shadow: 1px 5px 5px rgba(8, 0, 0, 0.123);
     font-weight: 700;
-
     line-height: 18.78px;
 }
 
@@ -438,9 +428,7 @@ a {
 }
 
 .footer-container p {
-
     font-size: 16px;
-
     font-weight: 400;
 }
 
@@ -464,8 +452,6 @@ a {
         height: 325px;
     }
 
-    
-
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column;
@@ -478,8 +464,6 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-
-
     }
 
 
@@ -503,7 +487,6 @@ a {
 
     .cards-activites {
         width: 100%;
-
     }
 
     .cards-activites img {
@@ -543,12 +526,10 @@ a {
     }
 
     .logo {
-
         text-align: center;
     }
 
     .navigation {
-
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -582,21 +563,16 @@ a {
     }
 
     .search-bar {
-
         width: 95%;
         margin: 25px;
         gap: 15px;
 
     }
 
-
-
-
     #desktop-button {
         display: none;
         opacity: 0%;
     }
-
 
     #mobileButton {
         margin-left: 15px;
@@ -642,8 +618,6 @@ a {
         margin-top: 50px;
         width: 100%;
         gap: 10px;
-       
-       
     }
 
     .hebergements-and-populaires section {
@@ -662,7 +636,6 @@ a {
         justify-content: center;
         width: 100%;
         border-radius:0%;
-
     }
 
     .populaires-cards {
@@ -683,8 +656,6 @@ a {
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
-
-
     }
 
     .locationcard {
