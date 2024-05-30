@@ -128,7 +128,7 @@ nav li:hover {
     border: transparent;
     font-weight: 700;
     outline: none;
-    
+
 }
 
 ::placeholder {
@@ -146,6 +146,10 @@ nav li:hover {
     font-weight: 700;
     cursor: pointer;
 
+}
+
+#loupe {
+    color: white;
 }
 
 #mobileButton {
@@ -292,6 +296,7 @@ a {
 
 .locationcard {
     width: calc(33.33% - 20px);
+    min-width: 192px;
     min-height: 207.25px;
     background-color: white;
     border: solid 5px;
@@ -442,7 +447,7 @@ a {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media screen and (max-width: 1024px) {
-    
+
     .main-container {
         max-width: 1024px;
         margin: auto;
@@ -497,7 +502,7 @@ a {
 
     .cards-activites img {
         width: 100%;
-        
+
         border-radius: 20px 20px 0px 0px;
         object-fit: cover;
         position: relative;
@@ -563,16 +568,29 @@ a {
     }
 
     .Headline {
-        width: 100%;
-        
+        width: 90%;
+    }
+    
+
+    form {
+        width: 85%;
     }
 
 
     .search-bar {
-        width: 335px;
+        width: 100%;
         margin-top: 35px;
-        gap: 30px;
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .search-bar #localisation {
+        width: 15%;
+    }
 
+    #searchBar {
+        width: 70%;
     }
 
     #desktop-button {
@@ -581,23 +599,22 @@ a {
     }
 
     #mobileButton {
-        margin-left: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 18%;
+        width: 15%;
         background-color: #0065fc;
         border-radius: 15px;
     }
 
-    
+
 
 
     .filtre-container {
-        width: 100%;
+        width: 380px;
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
+
 
     }
 
@@ -608,7 +625,7 @@ a {
 
     }
 
-    
+
 
 
 
